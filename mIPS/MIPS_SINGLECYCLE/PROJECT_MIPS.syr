@@ -1,0 +1,143 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> Reading design: PROJECT_MIPS.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PROJECT_MIPS.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PROJECT_MIPS"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-pq208
+
+---- Source Options
+Top Module Name                    : PROJECT_MIPS
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Adder/Adder32Bit.vhd" in Library work.
+Architecture behavioral of Entity adder32bit_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Adder2/Adder4Bit.vhd" in Library work.
+Architecture behavioral of Entity adder4bit_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mux_32BIT/Mux2_1.vhd" in Library work.
+Architecture behavioral of Entity mux2_1_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/InstructionMemory/InstMem.vhd" in Library work.
+Architecture behavioral of Entity instructionmemory_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mahmoud_Mostafa_ALU_SignExtend/SignExtend/SignExtend32Bit.vhd" in Library work.
+Architecture behavioral of Entity signext_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mux_5BIT/MUX_5.vhd" in Library work.
+Architecture behavioral of Entity mux5_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/MahmoudMostafa_Register/Reg/Register.vhd" in Library work.
+Architecture behavioral of Entity register_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Alu_control/ALU_Control.vhd" in Library work.
+Architecture behavioral of Entity alu_control_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mahmoud_Mostafa_ALU_SignExtend/alu/ALU4Bit.vhd" in Library work.
+Architecture behavioral of Entity alu4bit_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/MahmoudMostafa_memUnit/MemoryUnit.vhd" in Library work.
+Architecture behavioral of Entity memory_unit_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mahmoud_Mastafa_ControlUnit/ALU_Control/Control.vhd" in Library work.
+Architecture behavioral of Entity control_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/ShiftLeft2Bit/ShiftLeft.vhd" in Library work.
+Architecture behavioral of Entity shiftleft_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/PC/PCCounter.vhd" in Library work.
+Architecture behavioral of Entity pc_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/PROJECT_MIPS.vhd" in Library work.
+Entity <project_mips> compiled.
+ERROR:HDLParsers:3312 - "F:/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/PROJECT_MIPS.vhd" Line 228. Undefined symbol 'ALU4Bit_20100432'.
+--> 
+
+Total memory usage is 4495616 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

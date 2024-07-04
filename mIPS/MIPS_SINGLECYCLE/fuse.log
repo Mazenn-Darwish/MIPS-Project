@@ -1,0 +1,49 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/newtb_mazennnn55_isim_beh.exe" -prj "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/newtb_mazennnn55_beh.prj" "work.newtb_mazennnn55" 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/ShiftLeft2Bit/ShiftLeft.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/Register/Reg/Register.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/PC/PCCounter.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/Mux_5BIT/MUX_5.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/Mux_32BIT/Mux2_1.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/memUnit/MemoryUnit.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/InstructionMemory/InstMem.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/ControlUnit1/ALU_Control/Control.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/ALU_SignExtend/SignExtend/SignExtend32Bit.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/ALU_SignExtend/alu/ALU4Bit.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/Alu_control/ALU_Control.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/Adder2/Adder4Bit.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/../../MIPS_SOURCES/Adder/Adder32Bit.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/PROJECT_MIPS.vhd" into library work
+Parsing VHDL file "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/newtb_mazennnn55.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity Adder32Bit_20100432 [adder32bit_20100432_default]
+Compiling architecture behavioral of entity Adder4Bit_20100432 [adder4bit_20100432_default]
+Compiling architecture behavioral of entity MUX2_1_20100432 [mux2_1_20100432_default]
+Compiling architecture behavioral of entity InstructionMemory_20100432 [instructionmemory_20100432_defau...]
+Compiling architecture behavioral of entity SignExt_20100432 [signext_20100432_default]
+Compiling architecture behavioral of entity MUX5_20100432 [mux5_20100432_default]
+Compiling architecture behavioral of entity Register_20100432 [register_20100432_default]
+Compiling architecture behavioral of entity ALU_Control_20100432 [alu_control_20100432_default]
+Compiling architecture behavioral of entity ALU4Bit_m [alu4bit_m_default]
+Compiling architecture behavioral of entity Memory_Unit_20100432 [memory_unit_20100432_default]
+Compiling architecture behavioral of entity Control_20100432 [control_20100432_default]
+Compiling architecture behavioral of entity ShiftLeft_20100432 [shiftleft_20100432_default]
+Compiling architecture behavioral of entity PC_20100432 [pc_20100432_default]
+Compiling architecture behavioral of entity MIPS_Mazen_20100432 [mips_mazen_20100432_default]
+Compiling architecture behavior of entity newtb_mazennnn55
+Time Resolution for simulation is 1ps.
+Waiting for 12 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\newtb_mazennnn55_isim_beh.exe.sim\libPortability.dll".
+Compiled 34 VHDL Units
+Built simulation executable D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/newtb_mazennnn55_isim_beh.exe
+Fuse Memory Usage: 38260 KB
+Fuse CPU Usage: 921 ms

@@ -1,0 +1,5 @@
+set -tmpdir "F:/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/xst/projnav.tmp"
+set -xsthdpdir "F:/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/xst"
+elaborate
+-ifn Adder4Bit.prj
+-ifmt mixed

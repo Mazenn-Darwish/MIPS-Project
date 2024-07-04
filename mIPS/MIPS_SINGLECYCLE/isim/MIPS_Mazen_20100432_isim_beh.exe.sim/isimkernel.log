@@ -1,0 +1,29 @@
+Command line:
+   MIPS_Mazen_20100432_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2224
+
+Wed May 31 11:57:12 2023
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5154.35 Meg
+
+ Total Signals          : 99
+ Total Nets             : 2080
+ Total Signal Drivers   : 38
+ Total Blocks           : 20
+ Total Primitive Blocks : 19
+ Total Processes        : 25
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 2581
+Total Line Count : 62
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 5154.35 Meg
+
+Wed May 31 11:57:31 2023
+

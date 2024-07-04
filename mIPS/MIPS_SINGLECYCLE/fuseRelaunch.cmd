@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/newtb_mazennnn55_isim_beh.exe" -prj "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/newtb_mazennnn55_beh.prj" "work.newtb_mazennnn55" 

@@ -1,0 +1,5 @@
+set -tmpdir "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/xst/projnav.tmp"
+set -xsthdpdir "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/xst"
+elaborate
+-ifn Adder32Bit.prj
+-ifmt mixed

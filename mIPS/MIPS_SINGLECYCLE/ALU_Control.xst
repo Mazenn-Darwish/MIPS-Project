@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Administrator/Desktop/MahmoudMostafa_19102461_2021/mIPS/MIPS_SINGLECYCLE/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Administrator/Desktop/MahmoudMostafa_19102461_2021/mIPS/MIPS_SINGLECYCLE/xst"
+elaborate
+-ifn ALU_Control.prj
+-ifmt mixed

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/MIPS_Mazen_20100432.xst" -ofn "D:/Users/free/OneDrive/Desktop/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/MIPS_Mazen_20100432.syr" 

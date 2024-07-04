@@ -1,0 +1,31 @@
+Command line:
+   newtb_mazennnn55_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  2257
+
+Wed May 31 11:59:26 2023
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5154.33 Meg
+
+ Total Signals          : 100
+ Total Nets             : 2080
+ Total Signal Drivers   : 39
+ Total Blocks           : 21
+ Total Primitive Blocks : 19
+ Total Processes        : 27
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 2582
+Total Line Count : 69
+In process InstMem.vhd:60 
+ 
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 4997.05 Meg
+
+Wed May 31 12:00:43 2023
+

@@ -1,0 +1,61 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to F:/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.19 secs
+ 
+--> Parameter xsthdpdir set to F:/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.20 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Adder/Adder32Bit.vhd" in Library work.
+Architecture behavioral of Entity adder32bit_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Adder2/Adder4Bit.vhd" in Library work.
+Architecture behavioral of Entity adder4bit_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mux_32BIT/Mux2_1.vhd" in Library work.
+Architecture behavioral of Entity mux2_1_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/InstructionMemory/InstMem.vhd" in Library work.
+Architecture behavioral of Entity instructionmemory_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mahmoud_Mostafa_ALU_SignExtend/SignExtend/SignExtend32Bit.vhd" in Library work.
+Architecture behavioral of Entity signext_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mux_5BIT/MUX_5.vhd" in Library work.
+Architecture behavioral of Entity mux5_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/MahmoudMostafa_Register/Reg/Register.vhd" in Library work.
+Architecture behavioral of Entity register_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Alu_control/ALU_Control.vhd" in Library work.
+Architecture behavioral of Entity alu_control_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mahmoud_Mostafa_ALU_SignExtend/alu/ALU4Bit.vhd" in Library work.
+Architecture behavioral of Entity alu4bit_m is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/MahmoudMostafa_memUnit/MemoryUnit.vhd" in Library work.
+Architecture behavioral of Entity memory_unit_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/Mahmoud_Mastafa_ControlUnit/ALU_Control/Control.vhd" in Library work.
+Architecture behavioral of Entity control_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/ShiftLeft2Bit/ShiftLeft.vhd" in Library work.
+Architecture behavioral of Entity shiftleft_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/MIPS_SOURCES/PC/PCCounter.vhd" in Library work.
+Architecture behavioral of Entity pc_20100432 is up to date.
+Compiling vhdl file "F:/Mazen-Darwish-20100432-2023/mIPS/MIPS_SINGLECYCLE/PROJECT_MIPS.vhd" in Library work.
+Entity <MIPS_Mazen_20100432> compiled.
+Entity <MIPS_Mazen_20100432> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 2.52 secs
+ 
+--> 
+
+Total memory usage is 4476412 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+
